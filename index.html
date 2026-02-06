@@ -92,11 +92,34 @@ table tbody tr:nth-child(even) {
 }
 
 .footer {
-    margin-top: 40px;
-    font-size: 13px;
-    color: #666;
-    border-top: 1px solid #ddd;
-    padding-top: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 24px 28px;
+    margin: 30px 0;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+    border-left: 5px solid #f5a623; /* cor de destaque Msys */
+}
+
+.footer h2 {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 18px;
+    color: #333;
+}
+
+.footer p {
+    margin: 8px 0;
+    font-size: 15px;
+    color: #555;
+    line-height: 1.5;
+}
+
+.footer p::before {
+    content: "• ";
+    color: #f5a623;
+    font-weight: bold;
+}
+    
 }
 .whatsapp-highlight {
     background: #e8f8f0;
@@ -217,8 +240,6 @@ table tbody tr:nth-child(even) {
     <!-- Rodapé -->
    <div class="footer">
 
-    
-
     <p>* Implantação: R$ 399,90</p>
     <p>* Implantação com Importação de dados (Pessoas e Imóveis): R$ 599,90</p>
     <p>* Certificado do site: R$ 99,90 anual</p>
@@ -230,6 +251,7 @@ table tbody tr:nth-child(even) {
 
 </body>
 </html>
+
 
 
 
